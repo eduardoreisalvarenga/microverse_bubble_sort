@@ -10,6 +10,7 @@ def bubble_sort(array)
     return array if changed == false
   end
 end
+
 def bubble_sort_by(arr)
   yield (arr)
   my_size = arr.length
@@ -22,7 +23,7 @@ def bubble_sort_by(arr)
         swapped = true
       end
     end
-  end    
+  end
   print arr
 end
 
