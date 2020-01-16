@@ -7,7 +7,7 @@ def bubble_sort(argument)
         changed = true
       end
     end
-    return array if changed == false
+    return argument if changed == false
   end
 end
 
