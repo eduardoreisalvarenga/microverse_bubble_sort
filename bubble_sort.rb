@@ -1,9 +1,9 @@
-def bubble_sort(array)
+def bubble_sort(argument)
   loop do
     changed = false
     for i in 0...array.size - 1
-      if array[i + 1] < array[i]
-        array[i], array[i+1] = array[i + 1], array[i]
+      if argument[i + 1] < argument[i]
+        argument[i], argument[i+1] = argument[i + 1], argument[i]
         changed = true
       end
     end
