@@ -20,7 +20,7 @@ Metrics/ClassLength:
 Metrics/BlockLength:
   ExcludedMethods: ['describe']
 
-Layout/Documentation:
+Style/Documentation:
   Enabled: false
 Layout/ClassAndModuleChildren:
   Enabled: false
