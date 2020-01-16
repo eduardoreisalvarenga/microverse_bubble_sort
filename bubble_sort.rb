@@ -1,7 +1,7 @@
 def bubble_sort(argument)
   loop do
     changed = false
-    for i in 0...array.size - 1
+    for i in 0...argument.size - 1
       if argument[i + 1] < argument[i]
         argument[i], argument[i+1] = argument[i + 1], argument[i]
         changed = true
