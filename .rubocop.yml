@@ -15,9 +15,9 @@ Metrics/MethodLength:
 Metrics/AbcSize:
   Include: ["app/controllers/*"]
   Max: 30
-Layout/ClassLength:
+Metrics/ClassLength:
   Max: 150
-Layout/BlockLength:
+Metrics/BlockLength:
   ExcludedMethods: ['describe']
 
 Layout/Documentation:
