@@ -9,7 +9,7 @@ AllCops:
 
 Layout/LineLength:
   Max: 120
-Layout/MethodLength:
+Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
 Layout/AbcSize:
