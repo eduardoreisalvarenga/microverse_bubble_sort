@@ -24,9 +24,11 @@ def bubble_sort_by(arr)
       end
     end
   end
-  print arr
+  return arr
 end
 
-bubble_sort_by(["hi","hello","hey"]) do |left,right|
+a = bubble_sort_by(["hi","hello","hey"]) do |left,right|
   left.length - right.length
 end
+
+p a
