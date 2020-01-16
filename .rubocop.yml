@@ -12,7 +12,7 @@ Layout/LineLength:
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
-Layout/AbcSize:
+Metrics/AbcSize:
   Include: ["app/controllers/*"]
   Max: 30
 Layout/ClassLength:
