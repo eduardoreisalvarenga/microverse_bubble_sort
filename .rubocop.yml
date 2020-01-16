@@ -7,22 +7,22 @@ AllCops:
     - "Rakefile"
   DisplayCopNames: true
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
-Metrics/MethodLength:
+Layout/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
-Metrics/AbcSize:
+Layout/AbcSize:
   Include: ["app/controllers/*"]
   Max: 30
-Metrics/ClassLength:
+Layout/ClassLength:
   Max: 150
-Metrics/BlockLength:
+Layout/BlockLength:
   ExcludedMethods: ['describe']
 
-Style/Documentation:
+Layout/Documentation:
   Enabled: false
-Style/ClassAndModuleChildren:
+Layout/ClassAndModuleChildren:
   Enabled: false
 
 Layout/AlignHash:
