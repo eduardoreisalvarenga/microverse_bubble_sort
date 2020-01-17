@@ -16,7 +16,7 @@ We used Ruby to build this project
 
 - https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks
 
-# Author to the cloned page:
+# Author to the algorithm:
 
   -Eduardo Alvarenga & Richard Bongani Phala
 
